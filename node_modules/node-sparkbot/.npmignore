@@ -1,0 +1,15 @@
+# IDE
+.idea/
+.vscode
+
+# Build artefacts 
+Makefile
+node_modules/
+npm-debug.log
+
+# Library documentation & tests
+tests/
+docs/
+
+
+

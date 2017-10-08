@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "node-sparkbot@^0.9.2",
+        "scope": null,
+        "escapedName": "node-sparkbot",
+        "name": "node-sparkbot",
+        "rawSpec": "^0.9.2",
+        "spec": ">=0.9.2 <0.10.0",
+        "type": "range"
+      },
+      "/home/ubuntu/workspace"
+    ]
+  ],
+  "_from": "node-sparkbot@>=0.9.2 <0.10.0",
+  "_id": "node-sparkbot@0.9.2",
+  "_inCache": true,
+  "_location": "/node-sparkbot",
+  "_nodeVersion": "4.3.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/node-sparkbot-0.9.2.tgz_1477474937891_0.62933867610991"
+  },
+  "_npmUser": {
+    "name": "objectisadvantag",
+    "email": "steve.sfartz@gmail.com"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "node-sparkbot@^0.9.2",
+    "scope": null,
+    "escapedName": "node-sparkbot",
+    "name": "node-sparkbot",
+    "rawSpec": "^0.9.2",
+    "spec": ">=0.9.2 <0.10.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-sparkbot/-/node-sparkbot-0.9.2.tgz",
+  "_shasum": "8da806876a6fb7b3297365b5136b30f2d1bf40ab",
+  "_shrinkwrap": null,
+  "_spec": "node-sparkbot@^0.9.2",
+  "_where": "/home/ubuntu/workspace",
+  "author": {
+    "name": "Stève Sfartz",
+    "url": "Cisco DevNet"
+  },
+  "bugs": {
+    "url": "https://github.com/CiscoDevNet/node-sparkbot/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "htmlparser2": "^3.9.1",
+    "request": "^2.74.0"
+  },
+  "description": "experiment Cisco Spark Webhook and build Spark Bots in nodejs",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8da806876a6fb7b3297365b5136b30f2d1bf40ab",
+    "tarball": "https://registry.npmjs.org/node-sparkbot/-/node-sparkbot-0.9.2.tgz"
+  },
+  "gitHead": "338c4ae159c6b4dc1b8797768e56301181ef0b93",
+  "homepage": "https://github.com/CiscoDevNet/node-sparkbot#readme",
+  "keywords": [
+    "SparkBot",
+    "CiscoSpark",
+    "Webhook",
+    "NodeJS",
+    "Express"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "objectisadvantag",
+      "email": "steve.sfartz@gmail.com"
+    }
+  ],
+  "name": "node-sparkbot",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiscoDevNet/node-sparkbot.git"
+  },
+  "scripts": {
+    "start": "node quickstart/onEvent-all-all.js"
+  },
+  "version": "0.9.2"
+}
